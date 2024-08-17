@@ -5,12 +5,18 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
   </head>
-
-  <body>
-    <%= yield %>
+  <body class="container pt-3">
+    <div>
+      <%= render partial: 'partials/header' %>
+    </div>
+    <div class="pt-3">
+      <%= render partial: 'partials/nav_bar' %>
+    </div>
+    <div class="pt-3">
+      <%= yield %>
+    </div>
   </body>
 </html>

@@ -1,43 +1,46 @@
-
-<div class="border">
-  <h2>Total Current Members</h2>
-  <p>1</p>
-  <%= link_to 'Members list', root_path %>
-</div>
-<div class="border">
-  <h2>Inception date</h2>
-  <p>started June 2022</p>
-</div>
-<div class="border">
-  <h2>Total Members currently employed</h2>
-  <p>1</p>
-  <p>100%</p>
-</div>
-<div class="border">
-  <h2>Employers</h2>
-  <p>1</p>
-  <%= link_to 'Employers List', root_path %>
-</div>
-<div class="border">
-  <h2>Events</h2>
-  <p>None upcoming</p>
-</div>
-<div class="border">
-  <h2>FAQ</h2>
-  <p>What is this?</p>
-  <p>How can it help you?</p>
-  <p>How can you use it?</p>
-  <p>How can you help it?</p>
-</div>
-<div class="border">
-  <h2>Documentation</h2>
-  <p>Various/miscellaneous how-tos hacking the developer/engineering experience</p>
-</div>
-<div class="border">
-  <h2>Collaboration</h2>
-  <p>Find people to help build your great idea</p>
-</div>
-<div class="border">
-  <h2>Contribute</h2>
-  <p>Create a PR, review a PR or add an issue</p>
+<div class="container-fluid d-flex">
+  <%= render partial: 'partials/left_sidebar' %>
+  <main class="mx-4">
+    <div class="border">
+      <h3>Welcome to the club</h3>
+    </div>
+    <div class="border">
+      <h2>Documentation</h2>
+      <p>Various/miscellaneous how-tos hacking the developer/engineering experience</p>
+    </div>
+    <div class="border">
+      <h2>Collaboration</h2>
+      <p>Find people to help build your great idea</p>
+    </div>
+    <div class="border">
+      <h2>Contribute</h2>
+      <p>Create a PR, review a PR or add an issue</p>
+    </div>
+  </main>
+  <aside class="right-sidebar col-4">
+    <div class="card">
+      <div class="card-header">
+        Events
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Upcoming Events</h5>
+        <p class="card-text">Something happening at some time</p>
+        <a href="#" class="btn btn-primary">Link to event details</a>
+      </div>
+    </div>
+    <br>
+    <div class="card">
+      <div class="card-header">
+        FAQs
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Frequently Asked Questions</h5>
+        <p class="card-text">What is this? </p>
+        <p class="card-text">How can it help me?</p>
+        <p class="card-text">How can I use it?</p>
+        <p class="card-text">How can you help it?</p>
+        <a href="#" class="btn btn-primary">The full list</a>
+      </div>
+    </div>
+  </aside>
 </div>

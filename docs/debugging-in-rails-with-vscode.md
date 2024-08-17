@@ -1,0 +1,7 @@
+- create a launch.json file
+- edit the launch.json file
+- starting the debugger
+- placing a breakpoint
+- hitting the breakpoint
+- looking around within the code
+- getting out of the debugger

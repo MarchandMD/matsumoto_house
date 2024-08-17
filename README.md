@@ -21,6 +21,7 @@
     <li><a href="#clone-the-repo"> ➤ Clone the repo</a></li>
     <li><a href="#start-it-locally"> ➤ Start it locally</a></li>
     <li><a href="#how-to-contribute"> ➤ How to Contribute</a></li>
+    <li><a href="#code-of-conduct"> ➤ Code of Conduct</a></li>
     <li><a href="#contributors"> ➤ Contributors</a></li>
   </ol>
 </details>
@@ -70,21 +71,53 @@ If you do not have this version of Ruby on your machine, you'll need to install 
 <!-- Clone the rep0 -->
 <h2 id="clone-the-repo"> :scroll: Clone the repo</h2>
 
-<p>words here</p>
+<p>Now that your local machine has the correct version of Ruby and Rails, let's get the project on your local machine.</p>
+
+```bash
+git clone <repo name here>
+
+```
+
+Then, of course, `cd` into the project
+
+```bash
+cd matsumoto_house
+```
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- start it locally -->
 <h2 id="start-it-locally"> :scroll: Start it locally</h2>
 
-<p>words here</p>
+<p>it can run with the usual `rails s`</p>
+
+However, if you'd like to be able to use VSCode's built in debugger you can open this with:
+
+
+```bash
+bin/dev
+```
+
+Additional details about using the the `debug` gem (which is the default in rails 7) instead of pry with VSCode's built-in debugging environment, there will be docs [here](/docs/debugging-in-rails-with-vscode.md)
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 <!-- start it locally -->
 <h2 id="how-to-contribute"> :scroll: How to Contribute</h2>
 
-<p>words here</p>
+<p>There's a couple of ways to contribute:</p>
+1. Submitting an Issue
+2. Submitting a PR
+3. Reviewing/approving an open PR
+
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
+<!-- start it locally -->
+<h2 id="code-of-conduct"> :scroll: Code of Conduct</h2>
+
+<p>This is an Open Source project, that we're hoping grows to become a great project that people enjoy contributing to. With that said, there's a lot of "mystery" surrounding what an actual job in software development might be like. Working in this project is a great way to begin to see just what it is like, specifically when it comes to submitting PRs, reviewing PRs, and ultimately approving PRs.</p>
+<p>Certain rules are in place for Continuous Integration, as well as guardrails for PR merges to follow certain standards.</p>
+<p>Anyone reviewing a PR is free to make any comments they'd like regarding a PR. Though any comment made on a PR is a suggestion. If the writer of the code has a justifiable, reasonable explanation for how they wrote something, then we encourage a healthy dialogue. We strongly encourage pair programming, mob programming or other collaboration in real time so everyone's voice can be heard.</p>
 
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 

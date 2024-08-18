@@ -1,0 +1,17 @@
+<% breadcrumb :employers %>
+<h1>Employers#index</h1>
+<p>Find me in app/views/employers/index.html.erb</p>
+<p>The idea here is to list all the employers that members of this house have worked for, in the past or currently.</p>
+<p>This assumes a user being able to add a job to their profile, or something to that effect.</p>
+<p>What would be easiest is allowing a user to add an Employer. And they could do so anonymouslly in case the want to avoid being spammed.</p>
+<p>Maybe just start doing it, and see what it becomes. </p>
+<%= form_with model: @employer, method: :post, url: employers_path do |f| %>
+  <div>
+    <%= f.label :employer_name %>
+    <%= f.text_field :employer_name %>
+  </div>
+  <div>
+    <%= f.label :office_policy %>
+    <%= f.select :office_policy, options_for_select(["In office", "Hybrid", "Remote"], { include_blank: true}) %>
+  </div>
+<% end %>

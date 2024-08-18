@@ -1,46 +1,9 @@
 <div class="container-fluid d-flex">
   <%= render partial: 'partials/left_sidebar' %>
-  <main class="mx-4">
-    <div class="border">
+  <main class="mx-4 col-5">
+    <div class="">
       <h3>Welcome to the club</h3>
     </div>
-    <div class="border">
-      <h2>Documentation</h2>
-      <p>Various/miscellaneous how-tos hacking the developer/engineering experience</p>
-    </div>
-    <div class="border">
-      <h2>Collaboration</h2>
-      <p>Find people to help build your great idea</p>
-    </div>
-    <div class="border">
-      <h2>Contribute</h2>
-      <p>Create a PR, review a PR or add an issue</p>
-    </div>
   </main>
-  <aside class="right-sidebar col-4">
-    <div class="card">
-      <div class="card-header">
-        Events
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Upcoming Events</h5>
-        <p class="card-text">Something happening at some time</p>
-        <a href="#" class="btn btn-primary">Link to event details</a>
-      </div>
-    </div>
-    <br>
-    <div class="card">
-      <div class="card-header">
-        FAQs
-      </div>
-      <div class="card-body">
-        <h5 class="card-title">Frequently Asked Questions</h5>
-        <p class="card-text">What is this? </p>
-        <p class="card-text">How can it help me?</p>
-        <p class="card-text">How can I use it?</p>
-        <p class="card-text">How can you help it?</p>
-        <a href="#" class="btn btn-primary">The full list</a>
-      </div>
-    </div>
-  </aside>
+  <%= render partial: 'partials/right_sidebar' %>
 </div>

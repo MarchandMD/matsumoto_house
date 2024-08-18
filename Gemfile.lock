@@ -94,6 +94,9 @@ GEM
     erubi (1.13.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
+    gretel (5.0.1)
+      actionview (>= 6.1)
+      railties (>= 6.1)
     i18n (1.14.5)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.0.1)
@@ -235,6 +238,7 @@ DEPENDENCIES
   bootsnap
   cssbundling-rails
   debug
+  gretel (~> 5.0)
   importmap-rails
   jbuilder
   pg (~> 1.1)

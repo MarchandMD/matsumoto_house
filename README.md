@@ -74,7 +74,7 @@ If you do not have this version of Ruby on your machine, you'll need to install 
 <p>Now that your local machine has the correct version of Ruby and Rails, let's get the project on your local machine.</p>
 
 ```bash
-git clone <repo name here>
+git clone git@github.com:MarchandMD/matsumoto_house.git
 
 ```
 
